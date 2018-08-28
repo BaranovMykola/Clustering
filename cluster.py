@@ -1,4 +1,6 @@
 from sklearn import cluster
+import constant
+import numpy as np
 
 def KMeans(x, clusters):
     kmeans = cluster.KMeans(clusters).fit(x)
@@ -9,3 +11,26 @@ def AffinityPropapagation(x, clusters):
     affinity = cluster.AffinityPropagation().fit(x)
     return affinity.labels_
 
+
+def MeanShift(x, clusters):
+
+    # sum = 0
+    # for i in x:
+    #     for j in x:
+    #         sum += get_l(i-j)
+    #
+    # sum /=  (len(x)**2)
+    # sum /= 2
+
+    # affinity = cluster.MeanShift(bandwidth=constant.mean_shift_bandwidth).fit(x)
+    meanshift = cluster.MeanShift(bandwidth=constant.mean_shift_bandwidth, n_jobs=-2).fit(x)
+    return meanshift.labels_
+
+
+def get_l(i):
+
+    sum = 0
+    for j in i:
+        sum += j**2
+
+    return np.sqrt(sum)
