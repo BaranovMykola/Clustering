@@ -142,3 +142,19 @@ def single_cluster(dim, samples, std, clusters, cluster_func):
     hyp.plot(x, '.', group=_y)
 
     print('Accuracy {0:0.2f}'.format(acc))
+
+
+def test_single_cluster(dim, samples, std, clusters, funcs, names, dst):
+    shutil.rmtree(dst)
+    os.mkdir(dst)
+
+    x, y = make_blobs(n_samples=samples, centers=clusters, n_features=dim, random_state=1, cluster_std=std)
+    hyp.plot(x, '.', save_path=os.path.join(dst, 'original.png'), show=False)
+    hyp.plot(x, '.', group=y, save_path=os.path.join(dst, 'original_clustered.png'), show=False)
+
+    print('Generated points')
+
+    for i in range(len(funcs)):
+        _y = funcs[i](x, clusters)
+        hyp.plot(x, '.', group=_y, save_path=os.path.join(dst, names[i]+'.png'), show=False)
+        print('Clustered using {0} algorith'.format(names[i]))
