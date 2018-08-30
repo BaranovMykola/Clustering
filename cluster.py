@@ -8,7 +8,7 @@ def KMeans(x, clusters):
 
 
 def AffinityPropapagation(x, clusters):
-    affinity = cluster.AffinityPropagation(damping=0.9).fit(x)
+    affinity = cluster.AffinityPropagation(damping=0.5).fit(x)
     return affinity.labels_
 
 

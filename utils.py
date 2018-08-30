@@ -62,7 +62,10 @@ def show_clusters(dim, samples, std):
 
 def visual(points, labels, shape, name, colorspace):
     mask = np.zeros(shape, np.uint8)
-    color = map_labels_advance(labels, points_to_img(points, shape))
+
+    # color = map_labels_advance(labels, points_to_img(points, shape))
+    color = map_labels(labels)
+
     mask = image_to_points(mask)
 
     for i in range(len(labels)):
@@ -72,9 +75,9 @@ def visual(points, labels, shape, name, colorspace):
     mask = points_to_img(mask, shape)
     img = points_to_img(points, shape)
 
-    res = ((mask * constant.mask_ratio + img * (1 - constant.mask_ratio))).astype(np.uint8)
+    mask_2 = ((mask * constant.mask_ratio + img * (1 - constant.mask_ratio))).astype(np.uint8)
 
-    res = np.hstack((img, mask, res))
+    res = np.hstack((img, mask, mask_2))
 
     font = cv2.FONT_HERSHEY_DUPLEX
     fs = 2
@@ -82,7 +85,7 @@ def visual(points, labels, shape, name, colorspace):
     a = cv2.getTextSize(name, font, fs, t)
     cv2.putText(res, name, (0,a[0][1]), font, fs, (255,255,255), t, cv2.LINE_AA)
 
-    return res
+    return res, mask
 
 def points_to_img(points, shape):
     return points.reshape(shape)
@@ -91,10 +94,12 @@ def points_to_img(points, shape):
 def map_labels(labels):
     color = {}
     idx = 0
+    c = np.unique(labels).shape[0]
+    mask_colors = constant.generate_colors( clusters=c )
 
     for i in labels:
         if i not in color.keys():
-            color[i] = constant.mask_colors[idx % len(constant.mask_colors)]
+            color[i] = mask_colors[idx % len(constant.mask_colors)]
             idx += 1
 
     return color

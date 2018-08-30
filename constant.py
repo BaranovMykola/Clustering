@@ -1,4 +1,20 @@
 from cluster import *
+import random
+import math
+import numpy as np
+
+def generate_colors(clusters):
+        colors = []
+        step_q = math.pow(clusters, 1.0/3)
+        step_q = math.ceil(step_q)
+        step = math.ceil(255.0/step_q)
+
+        for r in np.linspace(0, 255, step_q):
+                for g in np.linspace(0, 255, step_q):
+                        for b in np.linspace(0, 255, step_q):
+                                colors.append([int(b),int(g),int(r)])
+        random.shuffle(colors)
+        return colors
 
 funcs = [KMeans, AffinityPropapagation, MeanShift]
 names = ['K-Means', 'Affinity Propapagation', 'Mean Shift']
@@ -9,7 +25,7 @@ color = '#FFFFFF #C0C0C0 #808080 #000000 #FF0000' \
 
 cs = 'r g b'.split(' ')
 
-mask_colors = [[0,0,0], [0,0,255], [0,255,0], [255,0,0], [255,0,255], [255,255,0], [255,255,255]]
+mask_colors = generate_colors(10)
 
 mask_ratio = 0.5
 
