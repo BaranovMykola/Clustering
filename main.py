@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # test.test_samples(dim=dim, clusters=clusters, std=std, space=range(200,3000, 500), funcs=constant.funcs, names=constant.names, cs=constant.cs)
     # test.test_clusters(dim=dim, samples=samples, std=std, space=range(2, 10, 1), funcs=constant.funcs, names=constant.names, cs=constant.cs)
 
-    test.single_cluster(dim=dim, samples=samples, clusters=clusters, std=std, cluster_func=DBSCAN)
+    # test.single_cluster(dim=dim, samples=samples, clusters=clusters, std=std, cluster_func=DBSCAN)
     # test.test_single(dim=dim, samples=samples, clusters=clusters, std=std, funcs=constant.funcs, names=constant.names, dst='./Blobs/')
 
-    # test.test_image('./Images/', './Processed/', constant.funcs, constant.names)
+    test.test_image('./Images/', './Processed/', constant.funcs, constant.names)

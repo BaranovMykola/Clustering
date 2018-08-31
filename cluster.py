@@ -20,7 +20,7 @@ def MeanShift(x, clusters):
 
 def DBSCAN(x, clusters):
 
-    db = cluster.DBSCAN(eps=0.3, min_samples=2).fit(x)
+    db = cluster.DBSCAN(eps=10, min_samples=15).fit(x)
     return db.labels_
 
 

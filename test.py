@@ -126,7 +126,7 @@ def test_image(folder, dst, func, names, clusters = 3):
     for i in os.listdir(folder):
         print('Processing [{0}] image'.format(i))
         img = cv2.imread(os.path.join(folder, i))
-        img = cv2.resize(img, (100,100))
+        img = cv2.resize(img, (200,200))
         i = os.path.splitext(i)[0]
         for idx, f in enumerate(func):
             try:

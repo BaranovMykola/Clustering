@@ -16,8 +16,11 @@ def generate_colors(clusters):
         random.shuffle(colors)
         return colors
 
-funcs = [KMeans, AffinityPropapagation, MeanShift, DBSCAN]
-names = ['K-Means', 'Affinity Propapagation', 'Mean Shift', 'DBSCAN']
+# funcs = [KMeans, AffinityPropapagation, MeanShift, DBSCAN]
+# names = ['K-Means', 'Affinity Propapagation', 'Mean Shift', 'DBSCAN']
+
+funcs = [DBSCAN]
+names = ['DBSCAN']
 
 color = '#FFFFFF #C0C0C0 #808080 #000000 #FF0000' \
         ' #800000 #FFFF00 #808000 #00FF00 #008000' \
