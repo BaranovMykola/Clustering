@@ -9,6 +9,7 @@ import hypertools as hyp
 import shutil
 
 from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import samples_generator
 from scipy.interpolate import interp1d
 from scipy.interpolate import spline
 
@@ -150,7 +151,8 @@ def test_image(folder, dst, func, names, clusters = 3):
 
 
 def single_cluster(dim, samples, std, clusters, cluster_func):
-    x, y = make_blobs(n_samples=samples, centers=clusters, n_features=dim, random_state=0, cluster_std=std)
+    # x, y = make_blobs(n_samples=samples, centers=clusters, n_features=dim, random_state=0, cluster_std=std)
+    x, y = samples_generator.make_circles(n_samples=samples, random_state=True, factor=0.3, noise=0.05)
     _y = cluster_func(x, clusters)
 
     acc = sklearn.metrics.homogeneity_score(y,_y)
@@ -164,6 +166,7 @@ def single_cluster(dim, samples, std, clusters, cluster_func):
 def test_single_cluster(dim, samples, std, clusters, funcs, names, dst):
     shutil.rmtree(dst)
     os.mkdir(dst)
+
 
     x, y = make_blobs(n_samples=samples, centers=clusters, n_features=dim, random_state=1, cluster_std=std)
     hyp.plot(x, '.', save_path=os.path.join(dst, 'original.png'), show=False)

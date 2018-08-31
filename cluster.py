@@ -18,6 +18,12 @@ def MeanShift(x, clusters):
     return meanshift.labels_
 
 
+def DBSCAN(x, clusters):
+
+    db = cluster.DBSCAN(eps=0.3, min_samples=2).fit(x)
+    return db.labels_
+
+
 def get_l(i):
 
     sum = 0

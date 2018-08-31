@@ -16,14 +16,14 @@ def generate_colors(clusters):
         random.shuffle(colors)
         return colors
 
-funcs = [KMeans, AffinityPropapagation, MeanShift]
-names = ['K-Means', 'Affinity Propapagation', 'Mean Shift']
+funcs = [KMeans, AffinityPropapagation, MeanShift, DBSCAN]
+names = ['K-Means', 'Affinity Propapagation', 'Mean Shift', 'DBSCAN']
 
 color = '#FFFFFF #C0C0C0 #808080 #000000 #FF0000' \
         ' #800000 #FFFF00 #808000 #00FF00 #008000' \
         ' #00FFFF #008080 #FF00FF #800080 #0000FF ##000080'.split(' ')
 
-cs = 'r g b'.split(' ')
+cs = 'r g b c'.split(' ')
 
 mask_colors = generate_colors(10)
 
