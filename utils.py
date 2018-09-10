@@ -1,6 +1,7 @@
 from sklearn.datasets.samples_generator import make_blobs
 import hypertools as hyp
 import numpy as np
+import random
 import cv2
 import matplotlib.pyplot as plt
 import constant
@@ -134,3 +135,72 @@ def mean_if(p, l):
 
     sum /= idx
     return sum.astype(np.uint8)
+
+def read_points(file):
+    with open(file) as f:
+        lines = f.readlines()
+    lines = [x.strip() for x in lines]
+
+    x = []
+    y = []
+
+    for i in lines:
+        j = i.split(' ')
+        x.append([float(j[0]), float(j[1])])
+        y.append(float(j[2]))
+
+    return np.array(x), np.array(y)
+
+
+class ImagePointCreator:
+
+    def __init__(self, img):
+        self.image = img
+        self.x = []
+        self.y = []
+        self.label = 0
+        self.count = 100
+        self.range = 50
+
+    # def _click_and_crop(event, x, y, flags, param):
+
+    def click_and_crop(self,event, x, y, flags, param):
+        # grab references to the global variables
+        print('Label {0}'.format(self.label))
+        # if the left mouse button was clicked, record the starting
+        # (x, y) coordinates and indicate that cropping is being
+        # performed
+        if event == cv2.EVENT_LBUTTONDOWN:
+            for i in range(self.count):
+                _x = random.randint(max(0,x-self.range), min(999, x+self.range))
+                _y = random.randint(max(0, y - self.range), min(999, y + self.range))
+                self.x.append([_x,1000-_y])
+                self.y.append(self.label)
+            print ('Points [{0},{1]] written'.format(x,y))
+
+        # check to see if the left mouse button was released
+        elif event == cv2.EVENT_RBUTTONDOWN:
+            self.label += 1
+
+            # draw a rectangle around the region of interest
+        for i in self.x:
+            self.image[max(1000-i[1], 0), i[0]] = 255
+        # cv2.rectangle(self.image, refPt[0], refPt[1], (0, 255, 0), 2)
+        cv2.imshow("image", self.image)
+
+
+def create_points(max, file):
+    img = np.zeros((1000, 1000), np.uint8)
+    ipc = ImagePointCreator(img)
+    cv2.namedWindow("image")
+    cv2.setMouseCallback("image", ipc.click_and_crop)
+    cv2.imshow("image", img)
+    cv2.waitKey()
+
+    x = np.array(ipc.x)
+    y = np.array(ipc.y)
+
+    with open(file, 'w+') as f:
+        for i in range(len(x)):
+            f.write('{0} {1} {2}\n'.format(x[i][0]*max/1000.0, x[i][1]*max/1000.0, y[i]))
+

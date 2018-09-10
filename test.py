@@ -150,9 +150,11 @@ def test_image(folder, dst, func, names, clusters = 3):
             print('\t\tProcessed {0} clustering algorithm'.format(names[idx]))
 
 
-def single_cluster(dim, samples, std, clusters, cluster_func):
+def single_cluster(dim, samples, std, clusters, cluster_func, x = None, y = None):
     # x, y = make_blobs(n_samples=samples, centers=clusters, n_features=dim, random_state=0, cluster_std=std)
-    x, y = samples_generator.make_circles(n_samples=samples, random_state=True, factor=0.3, noise=0.05)
+    if x is None or y is None:
+        x, y = samples_generator.make_circles(n_samples=samples, random_state=True, factor=0.3, noise=0.05)
+
     _y = cluster_func(x, clusters)
 
     acc = sklearn.metrics.homogeneity_score(y,_y)
@@ -178,3 +180,20 @@ def test_single_cluster(dim, samples, std, clusters, funcs, names, dst):
         _y = funcs[i](x, clusters)
         hyp.plot(x, '.', group=_y, save_path=os.path.join(dst, names[i]+'.png'), show=False)
         print('Clustered using {0} algorith'.format(names[i]))
+
+
+def test_points(points_folder, funcs, names, dst):
+    if os.path.isdir(dst):
+        shutil.rmtree(dst)
+    os.mkdir(dst)
+
+    points_names = os.listdir(points_folder)
+    for i in points_names:
+        x,y = utils.read_points(os.path.join(points_folder, i))
+        print('Started processing {0} with {1} points'.format(i, len(y)))
+        for j in range(len(funcs)):
+            print('\tProcessing {0} algorithm'.format(names[j]))
+            _y = funcs[j](x, len(np.unique(y)))
+            hyp.plot(x, '.', group=_y, save_path=os.path.join(dst, '{0}_{1}_{2}_clusters.png'.format(os.path.splitext(i)[0], names[j], len(np.unique(_y)))), show=False)
+            print('\tProcessed.')
+            # print('Clustered using {0} algorith'.format(names[i]))

@@ -14,13 +14,13 @@ def AffinityPropapagation(x, clusters):
 
 def MeanShift(x, clusters):
 
-    meanshift = cluster.MeanShift(bandwidth=constant.mean_shift_bandwidth, n_jobs=-2).fit(x)
+    meanshift = cluster.MeanShift(n_jobs=-2).fit(x)
     return meanshift.labels_
 
 
 def DBSCAN(x, clusters):
 
-    db = cluster.DBSCAN(eps=10, min_samples=15).fit(x)
+    db = cluster.DBSCAN(eps=0.1, min_samples=15).fit(x)
     return db.labels_
 
 
