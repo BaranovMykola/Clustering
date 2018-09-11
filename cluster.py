@@ -8,7 +8,7 @@ def KMeans(x, clusters):
 
 
 def AffinityPropapagation(x, clusters):
-    affinity = cluster.AffinityPropagation(damping=0.5).fit(x)
+    affinity = cluster.AffinityPropagation().fit(x)
     return affinity.labels_
 
 
@@ -20,7 +20,7 @@ def MeanShift(x, clusters):
 
 def DBSCAN(x, clusters):
 
-    db = cluster.DBSCAN(eps=0.1, min_samples=15).fit(x)
+    db = cluster.DBSCAN(eps=0.05, min_samples=200).fit(x)
     return db.labels_
 
 

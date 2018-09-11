@@ -1,5 +1,6 @@
 import cluster
 import sklearn
+import time
 import utils
 import numpy as np
 import matplotlib.pyplot as plt
@@ -144,9 +145,9 @@ def test_image(folder, dst, func, names, clusters = 3):
                          save_path=os.path.join(dst, clustered_pts, '{0}_{1}_{2}.png'.format(i, names[idx], l.shape[0])), show=False)
 
                 cv2.imwrite( os.path.join(dst, mask_dir, '{0}_{1}_{2}.png'.format(i, names[idx], l.shape[0])), mask )
-            except:
+            except Exception as e:
                 with open( os.path.join(dst, '{0}_{1}.txt'.format(i, names[idx])), 'w+') as f:
-                    f.write('Error while processing')
+                    f.write('Error while processing: {0}'.format(str(e)))
             print('\t\tProcessed {0} clustering algorithm'.format(names[idx]))
 
 
@@ -193,7 +194,11 @@ def test_points(points_folder, funcs, names, dst):
         print('Started processing {0} with {1} points'.format(i, len(y)))
         for j in range(len(funcs)):
             print('\tProcessing {0} algorithm'.format(names[j]))
+            t0 = time.time()
             _y = funcs[j](x, len(np.unique(y)))
-            hyp.plot(x, '.', group=_y, save_path=os.path.join(dst, '{0}_{1}_{2}_clusters.png'.format(os.path.splitext(i)[0], names[j], len(np.unique(_y)))), show=False)
-            print('\tProcessed.')
+            t1 = time.time()
+            acc = sklearn.metrics.homogeneity_score(y,_y)
+            time_elaps = time.strftime('%H:%M:%S', time.gmtime(t1-t0))
+            hyp.plot(x, '.', group=_y, save_path=os.path.join(dst, '{0}_{1}_{2}_clusters_{3:0.2f}_acc_{4}_time.png'.format(os.path.splitext(i)[0], names[j], len(np.unique(_y)), acc, time_elaps)), show=False)
+            print('\tProcessed. {0} Elapsed'.format(time_elaps))
             # print('Clustered using {0} algorith'.format(names[i]))

@@ -3,13 +3,74 @@
   <component name="ChangeListManager">
     <list default="true" id="35e43da2-3b32-4887-8648-eaa13f840456" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.Presentation.odp#" beforeDir="false" afterPath="$PROJECT_DIR$/.~lock.Presentation.odp#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation.odp" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation.odp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/bin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/binary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/circles_Affinity Propapagation_3348_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/circles_DBSCAN_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/circles_K-Means_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/circles_Mean Shift_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/long_Affinity Propapagation_1757_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/long_DBSCAN_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/long_K-Means_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/long_Mean Shift_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/simple_clusters_Affinity Propapagation_3535_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/simple_clusters_DBSCAN_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/simple_clusters_K-Means_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/simple_clusters_Mean Shift_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/single_Affinity Propapagation_577_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/single_DBSCAN_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/single_K-Means_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/single_Mean Shift_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/spiral_Affinity Propapagation_3597_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/spiral_DBSCAN_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/spiral_K-Means_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/spiral_Mean Shift_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_single_Affinity Propapagation_3841_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_single_DBSCAN_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_single_K-Means_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_single_Mean Shift_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_spiral_Affinity Propapagation_3326_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_spiral_DBSCAN_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_spiral_K-Means_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered/two_spiral_Mean Shift_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/?!_Affinity Propapagation_2770_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/?!_DBSCAN_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/?!_K-Means_4_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/?!_Mean Shift_3_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/flower_Affinity Propapagation_3354_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/flower_DBSCAN_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/flower_K-Means_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/flower_Mean Shift_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/lego_Affinity Propapagation_5085_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/lego_DBSCAN_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/lego_K-Means_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/lego_Mean Shift_2_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/weights_Affinity Propapagation_3820_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/weights_DBSCAN_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/weights_K-Means_1_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Clustered_Fantasy/weights_Mean Shift_4_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Fantasy/?!.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Fantasy/flower.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Fantasy/lego.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Points_Fantasy/weights.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/clustered_pts/coins_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/clustered_pts/coins_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/clustered_pts/cube_DBSCAN_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/clustered_pts/thunderstorm_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/clustered_pts/thunderstorm_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/coins_DBSCAN_2_clusters.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/coins_DBSCAN_2_clusters.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/coins_DBSCAN_scatter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/coins_DBSCAN_scatter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/cube_DBSCAN_9_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/cube_DBSCAN_scatter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/cube_DBSCAN_scatter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/mask/coins_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/mask/coins_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/mask/cube_DBSCAN_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/mask/thunderstorm_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/mask/thunderstorm_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/pts/coins_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/pts/coins_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/pts/cube_DBSCAN_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/pts/thunderstorm_DBSCAN_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/pts/thunderstorm_DBSCAN_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/thunderstorm_DBSCAN_2_clusters.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/thunderstorm_DBSCAN_2_clusters.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processed/thunderstorm_DBSCAN_scatter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Processed/thunderstorm_DBSCAN_scatter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/constant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grp.png" beforeDir="false" afterPath="$PROJECT_DIR$/grp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/or.png" beforeDir="false" afterPath="$PROJECT_DIR$/or.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
@@ -22,29 +83,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Clustering$exp.coverage" NAME="exp Coverage Results" MODIFIED="1535610953443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Clustering$main.coverage" NAME="main Coverage Results" MODIFIED="1535736372848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$main.coverage" NAME="main Coverage Results" MODIFIED="1535301923676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$utils.coverage" NAME="utils Coverage Results" MODIFIED="1534962120083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$main.coverage" NAME="main Coverage Results" MODIFIED="1536604557463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$main.coverage" NAME="main Coverage Results" MODIFIED="1536664248407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="477">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apport_python_hook.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -61,8 +113,17 @@
       <file leaf-file-name="shutil.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3.5/shutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7786">
+            <state relative-caret-position="6870">
               <caret line="464" selection-start-line="464" selection-end-line="464" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -70,8 +131,11 @@
       <file leaf-file-name="constant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +143,11 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+            <state relative-caret-position="-61">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +155,7 @@
       <file leaf-file-name="kmeans.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="435">
               <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
@@ -97,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cluster.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cluster.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -112,8 +179,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+            <state relative-caret-position="276">
+              <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -121,11 +188,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/hypertools/plot/draw.py">
+      <file leaf-file-name="arraysetops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/lib/arraysetops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="230" column="13" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="13" />
+            <state relative-caret-position="2895">
+              <caret line="195" column="73" selection-start-line="195" selection-start-column="73" selection-end-line="195" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -157,11 +224,11 @@
         <option value="$PROJECT_DIR$/kmeans.py" />
         <option value="$PROJECT_DIR$/exp.py" />
         <option value="$PROJECT_DIR$/create_points.py" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/constant.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/cluster.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/cluster.py" />
       </list>
     </option>
   </component>
@@ -175,10 +242,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="1984" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -365,16 +432,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="-1856" y="-1091" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="413" height="884" id="Documentation" order="5" sideWeight="0.5010246" side_tool="true" visible="true" weight="0.32938007" />
+      <window_info anchor="right" x="0" y="0" width="414" height="892" id="Documentation" order="5" sideWeight="0.5010246" side_tool="true" visible="true" weight="0.328911" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32924336" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32889345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280757" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" type="SLIDING" weight="0.17247097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -382,7 +449,7 @@
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.4989754" weight="0.32991913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39856556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -393,15 +460,14 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" type="SLIDING" weight="0.17247097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.4989754" weight="0.32991913" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" type="SLIDING" weight="0.17247097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32889345" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32924336" />
@@ -410,8 +476,9 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.4989754" weight="0.32991913" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -431,7 +498,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="65" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -810,18 +877,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/lib/arraysetops.py" />
+    <entry file="file://$PROJECT_DIR$/exp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/lib/python3.5/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7786">
+        <state relative-caret-position="6870">
           <caret line="464" selection-start-line="464" selection-end-line="464" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="435">
           <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -843,10 +915,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/hypertools/plot/draw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+        <state relative-caret-position="344">
+          <caret line="230" column="13" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/lib/arraysetops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="195" column="73" selection-start-line="195" selection-start-column="73" selection-end-line="195" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
@@ -855,41 +941,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/constant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+        <state relative-caret-position="-61">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/hypertools/plot/draw.py">
+    <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="230" column="13" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="276">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

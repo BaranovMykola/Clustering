@@ -16,7 +16,8 @@ import hypertools as hyp
 def image_to_points(img):
     shape = img.shape
     square = shape[0] * shape[1]
-    img = img.reshape((square, img.shape[2]))
+    img = img.reshape((square, img.shape[2])).astype(np.float32)
+    img /= 255
 
     return img
 
@@ -74,6 +75,7 @@ def visual(points, labels, shape, name, colorspace):
         mask[i] = c
 
     mask = points_to_img(mask, shape)
+    mask*=255
     img = points_to_img(points, shape)
 
     mask_2 = ((mask * constant.mask_ratio + img * (1 - constant.mask_ratio))).astype(np.uint8)
@@ -89,7 +91,7 @@ def visual(points, labels, shape, name, colorspace):
     return res, mask
 
 def points_to_img(points, shape):
-    return points.reshape(shape)
+    return (points.reshape(shape)*255).astype(np.uint8)
 
 
 def map_labels(labels):

@@ -18,7 +18,7 @@ rsrc = resource.RLIMIT_DATA
 soft, hard = resource.getrlimit(rsrc)
 # print ('Soft limit starts as  {0}'.format( soft))
 #
-resource.setrlimit(rsrc, (1024*1024*8*1024, hard)) #limit to one kilobyte
+resource.setrlimit(rsrc, (1024*1024*9*1024, hard)) #limit to one kilobyte
 #
 # soft, hard = resource.getrlimit(rsrc)
 # print ('Soft limit starts as  {0}'.format( soft))
@@ -40,8 +40,8 @@ if __name__ == '__main__':
     # x,y = utils.read_points('test1.txt')
     # test.single_cluster(dim=dim, samples=samples, clusters=clusters, std=std, cluster_func=DBSCAN, x=x, y=y)
 
-    test.test_points('./Points_Fantasy/', constant.funcs, constant.names, './Points_Clustered_Fantasy/')
+    # test.test_points('./Points/', constant.funcs, constant.names, './Points_Clustered/')
 
     # test.test_single(dim=dim, samples=samples, clusters=clusters, std=std, funcs=constant.funcs, names=constant.names, dst='./Blobs/')
 
-    # test.test_image('./Images/', './Processed/', constant.funcs, constant.names)
+    test.test_image('./Images/', './Processed/', constant.funcs, constant.names)
